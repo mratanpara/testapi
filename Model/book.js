@@ -3,4 +3,4 @@ const schema = mongoose.Schema({
     name:String,
     qty:Number
 },{timestamps:true});
-module.exports = mongoose.model("Book",schema);
+module.exports = mongoose.model("student",schema);
